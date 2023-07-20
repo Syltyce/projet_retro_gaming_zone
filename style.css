@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    font-family: 'Goldman', cursive;
+}
+
+h1 {
+    background-color: #8F53FF;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 50px auto 50px auto;
+    padding: 25px 0 25px 0;
+}
+
+p {
+    color: white;
+    font-size: 1.25rem;
+}
+
+ul li {
+    font-size: 1.25rem;
+}
+
+header {
+    background: url(img/image_1.png);
+    padding: 50px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+header button {
+    background-color: #8F53FF;
+    color: white;
+    border: none;
+    width: 20vw;
+    padding: 25px;
+    font-size: 2.5rem;
+}
+
+header p {
+    background-color: rgba(143, 83, 255, 0.5);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Modifier la width des 2 paragraphes du header */
+
+header .bienvenue {
+    width: 25vw;
+    margin: 25px auto 25px auto;
+    padding: 10px;
+}
+
+header .nostalgie {
+    width: 80vw;
+    padding: 20px;
+    margin: 25px auto 25px auto;
+}
+
+/* Section numéro 1 */
+
+.informations {
+    background-color: #8F53FF;
+    margin: 5vh 0 5vh 0;
+    display: flex;
+    padding: 5vh 10vw 5vh 10vw;
+    align-items: center;
+    height: 50vh;
+}
+
+.partie_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partie_1 p {
+    padding: 20px 100px 20px 0;
+}
+
+.partie_1 button {
+    padding: 20px;
+    background-color: white;
+    border: none;
+    color: #313151;
+    font-size: 1.5rem;
+}
+
+.informations img {
+    width: 20rem;
+}
+
+.equipe {
+    background-color: #313151;
+    margin: 5vh 0 5vh 0;
+    padding: 5vh 10vw 5vh 10vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 50vh;
+}
+
+.partie_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partie_2 p {
+    padding: 20px 0 20px 100px;
+}
+
+.partie_2 button {
+    padding: 20px;
+    color: white;
+    background-color: #8F53FF;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.equipe img {
+    width: 20rem;
+}
+
+.reservation {
+    background-color: #8F53FF;
+    background-image: url(img/image_4.png);
+    height: 110vh;
+    position: relative;
+}
+
+.info_reservation {
+    background-color: rgba(143, 83, 255, 0.8);
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+}
+
+.info_reservation p {
+    width: 70%;
+    padding: 50px;
+    text-align: center;
+}
+
+.info_reservation button {
+    padding: 20px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+footer {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(49, 49, 81, 0.8);
+    color: white;
+}
+
+footer .reseaux_sociaux {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+footer .reseaux_sociaux li i{
+    font-size: 2rem;
+    padding: 0px 50px 0 50px;
+}
+
+footer .coordonnees {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    list-style-type: none;
+    padding: 50px;
+    text-align: center;
+}
+
+footer .coordonnees li {
+    width: 20vw;
+    padding: 10px;
+}
+
+
+footer .coordonnees li:nth-child(2) {
+    margin-top: 200px; /* Ajustez la valeur du margin-top selon vos besoins */
+}
+
